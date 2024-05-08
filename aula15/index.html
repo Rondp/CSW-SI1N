@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula15</title>
+</head>
+<style>
+    #divsimples{
+        background-color: lightcyan;
+        text-align: center;
+        border: 1px solid black;
+        
+    }
+    #divsimples2{
+        background-color: lightcyan;
+        text-align: center;
+        border: 1px solid black;
+        
+    }
+    .divtratada{
+        display: inline-block;
+        background-color: lightcyan;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+    }
+    .grupo{
+        color: red;
+        border: 1px solid black;
+    }
+    .divtratada:hover{
+        background-color: blue;
+        font-weight: bold
+    }
+    .divtratada:hover > p{
+        color: aquamarine;
+    }
+</style>
+<body>
+    <div id="divsimples">01</div>
+    <br>
+    <p><div class="divtratada"> <div> 02 </div><div id="divsimples2"> </div></div>
+    <div class="divtratada"> 03</div>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet <span class="grupo">consectetur, adipisicing elit. Quisquam perferendis veniam commodi magni eligendi similique dolor,</span> quo distinctio saepe quis, dolores iusto molestiae, modi id error? Nisi autem corrupti ab.</p>
+    <p><div>Lorem ipsum dolor sit amet <span class="grupo">consectetur adipisicing elit. Dignissimos, magnam vel eveniet aliquid similique</span> inventore. Explicabo, necessitatibus quasi fugit omnis, maiores dolore nisi soluta quod architecto reprehenderit similique ex ipsa.</div></p>
+<br>
+<br>
+<br>
+
+</body>
+</html>
